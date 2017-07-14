@@ -1,0 +1,11 @@
+亲 {{ user.username }},
+
+这个链接会确认一下是你的邮箱:
+
+{{ url_for('auth.change_email', token=token, _external=True) }}
+
+好的,
+
+七月
+
+注意，别发太多

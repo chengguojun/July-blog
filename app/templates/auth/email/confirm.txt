@@ -1,0 +1,12 @@
+亲 {{ user.username }},
+欢迎到七月
+
+这是确认链接:
+
+{{ url_for('auth.confirm', token=token, _external=True) }}
+
+啦啦
+
+七月
+
+注意，别发太多

@@ -1,0 +1,7 @@
+<p>亲 {{ user.username }},</p>
+<p>确认下邮件<a href="{{ url_for('auth.change_email', token=token, _external=True) }}">点这里e</a>.</p>
+<p>这个链接会确认一下是你的邮箱</p>
+<p>{{ url_for('auth.change_email', token=token, _external=True) }}</p>
+<p>好的</p>
+<p>七月</p>
+<p><small>注意，别发太多</small></p>
